@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://kit.fontawesome.com/20c0151b3d.js" crossorigin="anonymous"></script>
+  <title>Report</title>
+</head>
+
+<body>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-6 md-6 first">
+        <div class="logo">
+          <img src="biglogo.jpeg" alt="logo">
+        </div>
+      </div>
+       <!-- Taking a single class of 6 columns and medium screen size 6 -->
+      <div class="col-6 md-6 second">
+        <form class="form-signin p-4" method="POST" action="/login">
+        
+          <!-- class for margin bottom 4 for the mobile logo -->
+          <div class="text-center mb-4">
+            <img class="mb-4 logo2" src="slogo.jpeg" alt="" width="72" height="72">
+          </div>
+
+         <!-- labels for the login -->
+          <div class="form-label-group">
+            <label for="inputEmail" style=" color: font-size 1rem;">Email address</label>
+            <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required="text"
+              autofocus="">
+
+          </div>
+
+          <div class="form-label-group mt-3 needs-validation" novalidate>
+            <label for="inputPassword">Password</label>
+            <input type="password" id="inputPassword" class="form-control" placeholder="Password" required="text" autofocus="">
+
+          </div>
+
+          <div class="checkbox mb-3 mt-3" style="width:67%;">
+            <label>
+              <input type="checkbox" value="remember-me"> Remember me
+            </label>
+          </div>
+          <!-- login and forgot password -->
+          <button class="btn btn-lg btn-primary btn-block" type="submit"
+            style="text-align: center border-radius 20px;">Login</button>
+          <button type="button" class="btn btn-link">Forgot Password?</button>
+          <div class="text-center text-muted text-uppercase mb-3">OR</div>
+          <div class="text-center text-muted text-uppercase mb-3">Login Using<hr></div>
+          <!-- Social media handles -->
+          <div class="foot">
+            <div class="google m-3">
+              <a href="#">
+              <i class="fa-brands fa-google"></i>
+            </a>
+            </div>
+            <div class="facebook m-3">
+              <a href="#">
+              <i class="fa-brands fa-facebook-f"></i>
+            </a>
+            </div>
+            <div class="twitter m-3">
+              <a href="#">
+              <i class="fa-brands fa-twitter"></i>
+            </a>
+            </div>
+          </div>
+          
+        </form>
+        
+      </div>
+    </div>
+  </div>
+
+
+</body>
+
+</html>
